@@ -4,7 +4,7 @@ var through2 = require('through2');
 var gutil = require('gulp-util');
 var stripJsonComments = require('strip-json-comments');
 var PluginError = require('gulp-util').PluginError;
-var HTMLHint = require('htmlhint').HTMLHint;
+var HTMLHint = require('htmlformhint').HTMLHint;
 
 var beep = gutil.beep;
 var c = gutil.colors;
