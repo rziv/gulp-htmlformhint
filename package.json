@@ -1,19 +1,16 @@
 {
-  "name": "gulp-htmlhint",
+  "name": "gulp-htmlformhint",
   "version": "0.3.1",
   "description": "A plugin for Gulp",
   "keywords": [
     "gulpplugin"
   ],
-  "homepage": "https://github.com/bezoerb/gulp-htmlhint",
-  "bugs": {
-    "url": "https://github.com/bezoerb/gulp-htmlhint/issues"
-  },
-  "author": "Ben Zörb (https://github.com/bezoerb)",
+  "homepage": "https://github.com/rziv/gulp-htmlhint",  
+  "author": "",
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bezoerb/gulp-htmlhint.git"
+    "url": "https://github.com/rziv/gulp-htmlhint.git"
   },
   "scripts": {
     "test": "xo && mocha test/*.js"
