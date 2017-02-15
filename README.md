@@ -1,20 +1,18 @@
-# gulp-htmlhint [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
-
 > [htmlhint](https://github.com/yaniswang/HTMLHint) wrapper for [gulp](https://github.com/wearefractal/gulp) to validate your HTML
 
 
 ## Usage
 
-First, install `gulp-htmlhint` as a development dependency:
+First, install `gulp-htmlformhint` as a development dependency:
 
 ```shell
-npm install --save-dev gulp-htmlhint
+npm install --save-dev gulp-htmlformhint
 ```
 
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var htmlhint = require("gulp-htmlhint");
+var htmlhint = require("gulp-htmlformhint");
 
 gulp.src("./src/*.html")
 	.pipe(htmlhint())
@@ -43,7 +41,7 @@ If this filename is specified, options and globals defined there will be used. T
 ```
 
 ```javascript
-var htmlhint = require("gulp-htmlhint");
+var htmlhint = require("gulp-htmlformhint");
 
 gulp.src("./src/*.html")
 	.pipe(htmlhint('.htmlhintrc'))
@@ -54,7 +52,7 @@ gulp.src("./src/*.html")
 
 ### Default reporter
 ```javascript
-var htmlhint = require("gulp-htmlhint");
+var htmlhint = require("gulp-htmlformhint");
 
 gulp.src("./src/*.html")
 	.pipe(htmlhint())
@@ -68,7 +66,7 @@ Use this reporter if you want your task to fail in case of a HTMLHint Error.
 It also prints a summary of all errors in the first bad file.
 
 ```javascript
-var htmlhint = require("gulp-htmlhint");
+var htmlhint = require("gulp-htmlformhint");
 
 gulp.src("./src/*.html")
 	.pipe(htmlhint())
@@ -86,7 +84,7 @@ __Plugin options:__
   Prevents duplication of error messages when used along with another reporter.
 
   ```javascript
-  var htmlhint = require("gulp-htmlhint");
+  var htmlhint = require("gulp-htmlformhint");
 
   gulp.src("./src/*.html")
 	  .pipe(htmlhint())
@@ -96,13 +94,31 @@ __Plugin options:__
 
 ## License
 
-[MIT License](bezoerb.mit-license.org)
+License
+================
 
-[npm-url]: https://npmjs.org/package/gulp-htmlhint
-[npm-image]: https://badge.fury.io/js/gulp-htmlhint.svg
+gulp-htmlformhint is released under the MIT license:
 
-[travis-url]: http://travis-ci.org/bezoerb/gulp-htmlhint
-[travis-image]: https://secure.travis-ci.org/bezoerb/gulp-htmlhint.svg?branch=master
+> The MIT License
+>
+> Permission is hereby granted, free of charge, to any person obtaining a copy
+> of this software and associated documentation files (the "Software"), to deal
+> in the Software without restriction, including without limitation the rights
+> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> copies of the Software, and to permit persons to whom the Software is
+> furnished to do so, subject to the following conditions:
+>
+> The above copyright notice and this permission notice shall be included in
+> all copies or substantial portions of the Software.
+>
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+> THE SOFTWARE.
 
-[depstat-url]: https://david-dm.org/bezoerb/gulp-htmlhint
-[depstat-image]: https://david-dm.org/bezoerb/gulp-htmlhint.svg
+[npm-url]: https://npmjs.org/package/gulp-htmlformhint
+[npm-image]: https://badge.fury.io/js/gulp-htmlformhint.svg
+

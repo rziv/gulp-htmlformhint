@@ -1,6 +1,6 @@
 {
   "name": "gulp-htmlformhint",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "description": "A plugin for Gulp",
   "keywords": [
     "gulpplugin"
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "gulp-util": "^3.0.0",
-    "htmlformhint": "^1.0.0",
+    "htmlformhint": "^1.1.1",
     "strip-json-comments": "^2.0.0",
     "through2": "^2.0.0"
   },
